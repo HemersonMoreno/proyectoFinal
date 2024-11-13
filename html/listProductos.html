@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Productos</title>
+    <link rel="stylesheet" href="../css/listProductos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="https://i.pinimg.com/736x/72/3d/0a/723d0af616b1fe7d5c7e56a3532be3cd.jpg" alt="Logo de la empresa">
+            </div>
+            <h1>Speed Logic Systems</h1>
+            <div class="filters">
+                <label for="filter1">RAM:</label>
+                <select id="filter1">
+                    <option>Default</option>
+                    <option>8</option>
+                    <option>16</option>
+                    <option>24</option>
+                    <option>32</option>
+                    <option>40</option>
+                </select>
+                <label for="filter2">GRAFICA:</label>
+                <select id="filter2">
+                    <option>Default</option>
+                    <option>NVIDIA</option>
+                    <option>AMD</option>
+                </select>
+                <div>
+                    <button class="filter-button">Filtrar</button>
+                </div>
+            </div>
+           
+        </div>
+        
+        <div class="content">
+            <div class="product-list">
+                <h3>Lista de Productos</h3>
+            </div>
+
+            <div class="product-details">
+                <h3>Detalles del Producto</h3>
+                <div class="product-image">
+                    <img src="">
+                </div>
+                <div class="product-description">
+                </div>
+                <div>
+                    <button class="add-cart">Agregar al carrito</button>
+                    <button class="complete-purchase">Completar compra</button>
+                    <button class="cancel-purchase" >Cancelar compra</button>
+                </div>                
+            </div>
+        </div>
+        <footer class="footer">
+            <p>&copy; 2024 Speed Logic Systems. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+    
+    <script src="../JavaScript/computadoras.js"></script>
+</body>
+</html>

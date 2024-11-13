@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles de Compra</title>
+    <link rel="stylesheet" href="../css/detalleCompra.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Speed Logic Systems</h2>
+        </div>
+
+        <h1>Detalles de Compra</h1>
+        
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+        </div>
+
+        <div class="form-group">
+            <label for="presupuesto">Presupuesto:</label>
+            <input type="number" id="presupuesto" placeholder="Presupuesto disponible">
+        </div>
+
+        <div class="form-group">
+            <label for="cantidadMax">Cantidad Máxima de Productos:</label>
+            <input type="number" id="cantidadMax" placeholder="Cantidad máxima">
+        </div>
+
+        <div class="form-group">
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" placeholder="Dirección de envío">
+        </div>
+
+        <div class="form-group">
+            <label>Opciones de Entrega:</label>
+            <div>
+                <input type="radio" id="domicilio" name="entrega" value="domicilio">
+                <label for="domicilio">Domicilio</label>
+            </div>
+            <div>
+                <input type="radio" id="tienda" name="entrega" value="tienda">
+                <label for="tienda">Recoger en tienda</label>
+            </div>
+            <div class="button">
+                <button type="submit">VER PRODUCTOS</button>
+                <button type="button">VACIAR CAMPOS</button>
+            </div>
+    </div>
+    <script src="../JavaScript/comprar.js"></script>
+</body>
+</html>
